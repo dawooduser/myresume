@@ -1,19 +1,21 @@
 import type { NextPage } from "next";
-import { IJobs, Months } from "../typings";
+import { IJobs, Months, workHistory } from "../typings";
 import linkedin from "../assets/linkedin.webp";
 import www from "../assets/www.webp";
 
 interface IJobsProps {
   jobs: IJobs[];
+  
 }
 
-export const Jobs: NextPage<IJobsProps> = ({ jobs }) => {
+export const Jobs: NextPage<IJobsProps> = () => {
+  
   return (
     <>
       <h1 className="jobs_heading">Work</h1>
 
       <div className="jobs_timeline_container">
-        {jobs?.map(job => (
+        {workHistory?.map(job => (
           <div className="job" key={job?.id}>
             <h2>{job?.company}</h2>
             <h3>{job?.designation}</h3>

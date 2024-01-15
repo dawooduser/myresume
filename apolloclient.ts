@@ -7,42 +7,6 @@ export const apolloClient = new ApolloClient({
 
 export const QUERY = gql`
   {
-    skills(orderBy: uniqueId_ASC) {
-      uniqueId
-      skill
-      id
-      proficient
-      fieldType
-      image {
-        url
-      }
-      url
-    }
-    jobs(orderBy: from_DESC) {
-      id
-      company
-      designation
-      companyLinkedin
-      companyUrl
-      from
-      to
-      logo {
-        url
-      }
-    }
-    projects(orderBy: uniqueId_ASC) {
-      id
-      title
-      uniqueId
-      description
-      demoLink
-      githubLink
-      techStack {
-        text
-      }
-      image {
-        url
-      }
-    }
+    
   }
 `;

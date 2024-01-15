@@ -40,7 +40,7 @@
           @include flexSettings(column, center, center);
           @include borderWithRadius(1px solid var(--skills-card-border), 10px);
           width: 100px;
-          height: 120px;
+          height: 60px;
           text-align: center;
           margin: 10px;
           background-color: #ffffff;

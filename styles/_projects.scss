@@ -13,7 +13,7 @@
 
       &_item {
         @include sectionLayout(8px 16px, #edf2f8);
-        @include borderWithRadius(1px solid #9c27b0, 8px);
+        @include borderWithRadius(1px solid #014e4ed2, 8px);
         margin-right: 15px;
         margin-bottom: 10px;
         font-size: 14px;
@@ -23,7 +23,7 @@
       }
 
       &_item:hover {
-        @include colorWithBackground(#ffffff, #9c27b0);
+        @include colorWithBackground(#ffffff, #014e4ed2);
       }
     }
 
@@ -60,12 +60,12 @@
           margin-bottom: 15px;
 
           &_tech {
-            @include borderWithRadius(1px solid #9c27b0, 5px);
+            @include borderWithRadius(1px solid #014e4ed2, 5px);
             display: inline-flex;
             margin: 3px 5px 3px -1px;
             font-size: 12px;
             padding: 4px;
-            color: #9c27b0;
+            color: #014e4ed2;
             font-weight: 600;
           }
         }
@@ -97,5 +97,5 @@
 }
 
 .activeTag {
-  @include colorWithBackground(#ffffff, #9c27b0);
+  @include colorWithBackground(#ffffff, #014e4ed2);
 }

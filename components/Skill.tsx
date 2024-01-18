@@ -1,17 +1,15 @@
 import type { NextPage } from "next";
-import { ISkills } from "../typings";
-
+import { ISkills, dataTech } from "../typings";
 interface ISkillProps {
-  skills: ISkills[];
   skill: string;
 }
 
-export const Skill: NextPage<ISkillProps> = ({ skills, skill }) => {
+export const Skill: NextPage<ISkillProps> = ({ skill }) => {
   return (
     <div className="skills_box_container">
       <p className="skills_box_container_heading">{skill}</p>
       <div className="skills_box_container_row">
-        {skills?.map((skill: ISkills) => (
+        {dataTech?.map((skill) => (
           <div
             key={skill?.id}
             className="skills_box_container_row_card"

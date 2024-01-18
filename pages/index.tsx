@@ -107,16 +107,16 @@ const Home: NextPage<IHomeProps> = ({ jobs, projects, skills }) => {
   return (
     <div>
       <Head>
-        <title>Himanshu Kashyap</title>
+        <title>Taha Salman</title>
         <meta
           name="keywords"
-          content="himan_kash, himanshu, kashyap, himanshu kashyap, iamhiman, lpu, dehradun, software developer, web developer"
+          content="taha_salman, react-native, react native, react native developer, UAE, react native UAE, Saudi, Saudia, react native UAE, Saudia arab UAE, taha, salman, taha salman karachi, mobile application developer, react native karachi, software enginner, software developer, mobile application developer"
         />
         <meta
           name="description"
-          content="Hey, I'm Himanshu Kashyap a Software Developer from Dehradun, Uttarakhand. Here's my portfolio where you can see all my projects, blogs, and achievements."
+          content="Dynamic Mobile App Developer with 5 years experience in React Native and UI focus | Expert in Cross-Platform Development & Third-Party Integrations."
         />
-        <meta name="author" content="Himanshu Kashyap" />
+        <meta name="author" content="Taha Salman" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

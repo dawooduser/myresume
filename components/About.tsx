@@ -12,23 +12,17 @@ export const About: NextPage = () => {
         <p className="about_left_text">
         Dynamic Mobile App Developer with 5 years experience in React Native and UI focus | Expert in Cross-Platform Development & Third-Party Integrations.
         </p>
-        {/* <div className="about_left_socialMedia">
-          <img src={github.src} alt="" onClick={() => window.open("https://github.com/iamhiman", "_blank")} />
+        <div className="about_left_socialMedia">
           <img
             src={linkedin.src}
             alt=""
-            onClick={() => window.open("https://www.linkedin.com/in/himankash/", "_blank")}
+            onClick={() => window.open("https://www.linkedin.com/in/taha-salman-mobile-app-developer/", "_blank")}
           />
-          <img
-            src={instagram.src}
-            alt=""
-            onClick={() => window.open("https://www.instagram.com/himan_kash/", "_blank")}
-          />
-          <img src={gmail.src} alt="" onClick={() => window.open("mailto:himanshu27kashyap@gmail.com", "_blank")} />
-        </div> */}
+          <img src={gmail.src} alt="" onClick={() => window.open("mailto:TahaSalman001@hotmail.com", "_blank")} />
+        </div>
         <div
           className="about_left_starme"
-          onClick={() => window.open("https://drive.google.com/file/d/1Wv4S9I-EkbYq_-OUuf8u3qbw6JN54kt-/view?usp=drive_link", "_blank")}
+          onClick={() => window.open("https://drive.google.com/file/d/16Joj56zpbfUGTik8NMX7bW-kZPjFuklA/view?usp=drive_link", "_blank")}
         >
           My Resume
         </div>

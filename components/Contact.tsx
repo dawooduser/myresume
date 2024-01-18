@@ -11,7 +11,6 @@ interface IContactProps {
 }
 
 export const Contact: NextPage<IContactProps> = ({ theme }) => {
-  console.log(process.env.NEXT_PUBLIC_UNIQUE_KEY,"===========");
   
   const [formData, setFormData] = useState<IFormData>({
     name: { value: "", errorMessage: "" },

@@ -3,7 +3,7 @@ import Head from "next/head";
 import { useEffect, useRef, useState } from "react";
 import { ToastContainer } from "react-toastify";
 // import { apolloClient, QUERY } from "../apolloclient";
-import { ISkills, IJobs, IProjects, Theme, THEME, SECTION } from "../typings";
+import { Theme, THEME, SECTION } from "../typings";
 import { Navbar } from "../components/Navbar";
 import { About } from "../components/About";
 import { Jobs } from "../components/Jobs";
@@ -13,13 +13,8 @@ import { Contact } from "../components/Contact";
 import { Footer } from "../components/Footer";
 import ScrollUp from "../assets/scrollup.webp";
 
-interface IHomeProps {
-  jobs: IJobs[];
-  projects: IProjects[];
-  skills: ISkills[];
-}
 
-const Home: NextPage<IHomeProps> = ({ jobs, projects, skills }) => {
+const Home: NextPage = ({}) => {
   const jobsRef = useRef<HTMLElement>(null);
   const projectsRef = useRef<HTMLElement>(null);
   const skillsRef = useRef<HTMLElement>(null);
@@ -128,15 +123,15 @@ const Home: NextPage<IHomeProps> = ({ jobs, projects, skills }) => {
         </section>
 
         <section className={SECTION.JOBS} ref={jobsRef}>
-          <Jobs jobs={jobs} />
+          <Jobs />
         </section>
 
         <section className={SECTION.PROJECTS} ref={projectsRef}>
-          <Projects projects={projects} />
+          <Projects />
         </section>
 
         <section className={SECTION.SKILLS} ref={skillsRef}>
-          <Skills skills={skills} />
+          <Skills />
         </section>
 
         <section className="contact" ref={contactRef}>

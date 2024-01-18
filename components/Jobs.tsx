@@ -1,14 +1,11 @@
 import type { NextPage } from "next";
-import { IJobs, Months, workHistory } from "../typings";
+import { Months, workHistory } from "../typings";
 import linkedin from "../assets/linkedin.webp";
 import www from "../assets/www.webp";
 
-interface IJobsProps {
-  jobs: IJobs[];
-  
-}
 
-export const Jobs: NextPage<IJobsProps> = () => {
+
+export const Jobs: NextPage = () => {
   
   return (
     <>

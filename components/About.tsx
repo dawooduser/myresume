@@ -10,7 +10,7 @@ export const About: NextPage = () => {
       <div className="about_left">
         <h1 className="about_left_head">Hi, I&apos;m Taha Salman</h1>
         <p className="about_left_text">
-        Dynamic Mobile App Developer with 5 years experience in React Native and UI focus | Expert in Cross-Platform Development & Third-Party Integrations.
+        Dynamic Mobile App Developer with 6 years experience in React Native and UI focus | Expert in Cross-Platform Development & Third-Party Integrations.
         </p>
         <div className="about_left_socialMedia">
           <img

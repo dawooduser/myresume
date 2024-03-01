@@ -109,7 +109,7 @@ const Home: NextPage = ({}) => {
         />
         <meta
           name="description"
-          content="Dynamic Mobile App Developer with 5 years experience in React Native and UI focus | Expert in Cross-Platform Development & Third-Party Integrations."
+          content="Dynamic Mobile App Developer with 6 years experience in React Native and UI focus | Expert in Cross-Platform Development & Third-Party Integrations."
         />
         <meta name="author" content="Taha Salman" />
         <link rel="icon" href="/favicon.ico" />

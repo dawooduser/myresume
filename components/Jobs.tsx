@@ -6,7 +6,7 @@ import www from "../assets/www.webp";
 
 
 export const Jobs: NextPage = () => {
-  
+
   return (
     <>
       <h1 className="jobs_heading">Work</h1>
